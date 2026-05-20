@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - includeAll:
+      path: liquibase/ddl/
+  - includeAll:
+      path: liquibase/dml/canonical/
+  - includeAll:
+      path: liquibase/dml/volumetric/
